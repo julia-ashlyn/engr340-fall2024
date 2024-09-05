@@ -29,3 +29,21 @@ num_evens = 0
 num_odds = 0
 
 ### YOUR CODE BEGINS HERE ###
+# starting empty lists
+even_list = list()
+odd_list = list()
+
+# iterating through list
+for num in nums:
+    if (num / 2) == (num // 2):
+        even_list.append(num)
+    else:
+        odd_list.append(num)
+
+num_evens = len(even_list)
+num_odds = len(odd_list)
+
+print(even_list)
+print(odd_list)
+print(num_evens)
+print(num_odds)

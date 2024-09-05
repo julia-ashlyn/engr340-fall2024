@@ -28,7 +28,9 @@ Step 2: Iterate through the vector(s) and calculate the dot product
 dot_product = 0
 
 ### Your code here
-
+for x in range(0, len(vector_a)):
+    multiply = vector_a[x] * vector_b[x]
+    dot_product = dot_product + multiply
 """
 Step 3: Calculate the error of your dot_product compared with numpy's solution
 """

@@ -16,16 +16,29 @@ list_average = -1
 
 
 # First Loop Here:
-
+sum = 0
+list_length = len(list_one)
+for element in list_one:
+    sum = sum + element
+list_average = sum / list_length
 
 # Second Loop Here:
-
+list_min = list_one[0]
+for element in list_one:
+    if element < list_min:
+        list_min = element
 
 # Third Loop Here:
+list_max = list_one[0]
+for element in list_one:
+    if element > list_max:
+        list_max = element
 
+print(list_average)
+print(list_min)
+print(list_max)
 
-
-
+print()
 
 
 

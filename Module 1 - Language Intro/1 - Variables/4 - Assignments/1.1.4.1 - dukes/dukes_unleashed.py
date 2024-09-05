@@ -11,5 +11,11 @@ Note: this problem does not require the "compounding interest" formula from the 
 ### Your code here ###
 
 in_state_gift = 0
+in_state_fees = 30792
+in_state_gift = in_state_fees / 0.05
+print(in_state_gift)
 
 out_state_gift = 0
+out_state_fees = 47882
+out_state_gift = out_state_fees / 0.05
+print(out_state_gift)
