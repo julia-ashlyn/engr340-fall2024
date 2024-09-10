@@ -10,11 +10,26 @@ def my_pi(target_error):
     """
 
     ### YOUR CODE HERE ###
+    a = 1
+    b = 1 / math.sqrt(2)
+    t = 1 / 4
+    p = 1
+
+    for i in range(1, 10):
+        a_i = (a + b) / 2
+        b_i = math.sqrt(a * b)
+        t_i = t - (p * ((a - a_i) **2))
+        p_i = 2 * p
+
+        a = a_i
+        b = b_i
+        t = t_i
+        p = p_i
+
+    pi_estimate = ((a + b) ** 2) / (4 * t)
 
     # change this so an actual value is returned
-    return 0
-
-
+    return pi_estimate
 
 
 desired_error = 1E-10
