@@ -1,6 +1,6 @@
 **7.4.1. - Reactive Strength Index**
 
-The Reactive Stength Index (RSI) is a measure of how rapidly an athlete can change their momentum an direction.
+The Reactive Stength Index (RSI) is a measure of how rapidly an athlete can change their momentum and direction.
 In this assignment you will calculate the RSI from several human subject participants on both a force plate and accelerometer.
 
 The key parameters to determine are the "Time of Flight" a person is in the air, and the "Time of Contact" they were on the ground.
