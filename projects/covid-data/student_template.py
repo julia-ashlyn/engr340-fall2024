@@ -146,7 +146,7 @@ if __name__ == "__main__":
 
     # for harrisonburg
     # create a new list with only harrisonburg data
-    for line in data:
+    for line in data: #iterating through data list
         harrisonburg_county_data = list()  # creating empty list to store rockingham county data
         for line in data:  # iterating through data list
             if line[1] == 'Harrisonburg city' and line[2] == 'Virginia':  # finding the values in data list that are in rockingham, virginia
@@ -159,6 +159,10 @@ if __name__ == "__main__":
         if line[3] > harrisonburg_greatest_number_cases:
             harrisonburg_greatest_number_cases = line[3]
             harrisonburg_date_greatest_number_cases = line[0]
+
+    # for rockingham
+    # create a new list with only rockingham data
+    for line in data:
 
 
 
